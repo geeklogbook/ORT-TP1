@@ -1,0 +1,25 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>212</x><y>260</y><w>260</w><h>190</h></coordinates><panel_attributes>Competencia
+--
+- nombreEspecialidad: String
+- competidores: ArrayList&lt;Competidor&gt; 
+--
++ Competencia()
++ AgregarCompetidor(Competidor): void  
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>582</x><y>260</y><w>260</w><h>190</h></coordinates><panel_attributes>Competidor
+--
+- nombreCompetidor: String
+- segundos: double 
+--
++ Competidor(String, Double)
++ getSegundos: Int</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>462</x><y>350</y><w>140</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>120;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>212</x><y>530</y><w>260</w><h>190</h></coordinates><panel_attributes>JuegosOlimpicos
+--
+- nombreEspecialidad: String
+- especialidades: ArrayList&lt;Especialidad&gt;
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>352</x><y>440</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>582</x><y>20</y><w>260</w><h>190</h></coordinates><panel_attributes>Posicion
+--
+- tiempo: int
+- competidor: Competidor
+--
++ Posicion</panel_attributes><additional_attributes></additional_attributes></element></diagram>
